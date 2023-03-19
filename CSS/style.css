@@ -151,6 +151,10 @@ header {
   line-height: 3rem;
 }
 
+a.nombre:hover {
+  color:white;
+}
+
 .socials {
   list-style: none;
   display: flex;
