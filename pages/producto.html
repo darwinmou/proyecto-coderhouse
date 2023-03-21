@@ -5,13 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DjGames</title>
+    <meta name="kerwords" content="Video, Videojuegos, PC, Juegos">
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./CSS/style.css" />
+    <link rel="stylesheet" href="../SCSS/styles.css" />
   </head>
 
   <body>
@@ -20,7 +21,7 @@
         <div class="logo">
           <img
             width="200px"
-            src="./CSS/imagenes/logo.webp"
+            src="../imagenes/logo.webp"
             alt="Aqui iria una imagen"
           />
           <h2 class="title">DjGames</h2>
@@ -28,11 +29,11 @@
       </header>
       <nav class="navbar">
         <ul>
-          <li><a href="./index.html"> Home</a></li>
-          <li><a href="./pages/quienesSomos.html"> Quienes Somos</a></li>
-          <li><a href="./pages/servicios.html"> Servicios</a></li>
-          <li><a href="./pages/producto.html"> Productos</a></li>
-          <li><a href="./pages/contacto.html"> Contacto</a></li>
+          <li><a href="../index.html"> Home</a></li>
+          <li><a href="./quienesSomos.html"> Quienes Somos</a></li>
+          <li><a href="./servicios.html"> Servicios</a></li>
+          <li><a href="./producto.html"> Productos</a></li>
+          <li><a href="./contacto.html"> Contacto</a></li>
         </ul>
       </nav>
       <h3 class="productos-title">
@@ -40,50 +41,88 @@
       </h3>
 
       <div class="productos">
-        <div class="categorias">
-          <ul>
-            <li>categoria 1</li>
-            <li>categoria 2</li>
-            <li>categoria 3</li>
-            <li>categoria 4</li>
+       <div>
+          <ul class="categorias">
+            <li><a href="#perifericos">Periféricos</a></li>
+            <li><a href="#juegosdeconsola">Juegos de Consola</a></li>
+            <li><a href="#juegosdepc">Juegos de PC</a></li>
+            <li><a href="#hardware">Hardware</a></li>
           </ul>
         </div>
         <div class="card-images">
           <img
+          id="perifericos"
             class="products-img"
-            src="./CSS/imagenes/gaming.webp"
-            alt=""
+            src="../imagenes/gaming.webp"
+            alt="imagen de teclado"
             title="Juego 1"
           />
           <img
             class="products-img"
-            src="./CSS/imagenes/nintendo.webp"
-            alt=""
+            src="../imagenes/audifonos.jpg"
+            alt="imagen de audifonos"
             title="Juego 2"
           />
           <img
             class="products-img"
-            src="./CSS/imagenes/mouse.webp"
-            alt=""
+            src="../imagenes/mouse.webp"
+            alt="imagen de mouse"
             title="Juego 3"
           />
-          <img
+          <img id="juegosdeconsola"
             class="products-img"
-            src="./CSS/imagenes/godofwar.jpg"
-            alt=""
+            src="../imagenes/godofwar.jpg"
+            alt="imagen de god of war"
             title="Juego 4"
           />
           <img
             class="products-img"
-            src="./CSS/imagenes/rocketlegue.webp"
-            alt=""
+            src="../imagenes/rocketlegue.webp"
+            alt="imagen de rocketlegue"
             title="Juego 5"
           />
           <img
             class="products-img"
-            src="./CSS/imagenes/tombraider.webp"
-            alt=""
+            src="../imagenes/tombraider.webp"
+            alt="imagen de tomb raider"
             title="Juego 6"
+          />
+          <img id="juegosdepc"
+            class="products-img"
+            src="../imagenes/diablo.webp"
+            alt="imagen de diablo"
+            title="Juego 7"
+          />
+          <img
+            class="products-img"
+            src="../imagenes/wow.avif"
+            alt="imagen de wow"
+            title="Juego 8"
+          />
+          <img
+            class="products-img"
+            src="../imagenes/csgo.png"
+            alt="imagen de csgo"
+            title="Juego 9"
+          />
+          <img 
+          id="hardware"
+            class="products-img"
+            src="../imagenes/placamadre.jfif"
+            alt="imagen de placa madre"
+            title="Juego 10"
+          />
+          <img
+            class="products-img"
+            src="../imagenes/tarjeta grafica.jpg"
+            alt="imagen de tarjeta grafica"
+            title="Juego 11"
+          />
+          <img
+            class="products-img"
+            src="../imagenes/procesador.jfif"
+            alt="imagen de procesador"
+            title="Juego 12"
           />
         </div>
       </div>
@@ -92,7 +131,7 @@
         <h3>Footer</h3>
         <p>
           Nuestra idea es que las personas que se acerquen a nuestro sitio
-          queden conformes y satisfechos con el producto que desen comprar.
+          queden conformes y satisfechos con el producto que deseen comprar.
           Nuestro principal compromiso es la satisfaccion de nuestros usuarios.
         </p>
         <ul class="socials">
@@ -100,7 +139,7 @@
             <a href="https://twitter.com/?lang=es"
               ><img
                 class="imggame"
-                src="./imagenes/twitter.webp"
+                src="../imagenes/twitter.webp"
                 alt="Twitter icon"
             /></a>
           </li>
@@ -108,7 +147,7 @@
             <a href="https://www.twitch.tv/"
               ><img
                 class="imggame"
-                src="./imagenes/twitch.webp"
+                src="../imagenes/twitch.webp"
                 alt="Twitch icon"
             /></a>
           </li>
@@ -116,7 +155,7 @@
             <a href="https://www.facebook.com/"
               ><img
                 class="imggame"
-                src="./imagenes/facebook.webp"
+                src="../imagenes/facebook.webp"
                 alt="Facebook icon"
             /></a>
           </li>
