@@ -139,7 +139,7 @@ grid-template-columns: 1fr 4fr;
   align-items: center;
 }
 
-.card-images {
+.card-imagesP {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
@@ -245,3 +245,12 @@ a.nombre:hover {
 .content h3 {
   margin: 2rem;
 }/*# sourceMappingURL=styles.css.map */
+
+@media screen and (max-width: 764px) {
+  .card-images {
+    flex-direction: column;
+  }
+  .card-imagesP {
+    grid-template-columns: 1fr 1fr;
+  }
+}
