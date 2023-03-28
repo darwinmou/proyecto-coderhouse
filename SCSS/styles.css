@@ -87,9 +87,10 @@ header {
 
 .image-box {
   background-color: #ffba6a;
-  border-radius: 5px;
-  width: 450px;
+  border-radius: 10px;
+  width: 420px;
   text-align: center;
+  padding: 5px;
 }
 
 .h2-subtitle {
@@ -137,11 +138,6 @@ grid-template-columns: 1fr 4fr;
  } */
 .productos-title {
   align-items: center;
-}
-
-.card-imagesP {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
 }
 
 input[type=text], select, textarea {
@@ -249,6 +245,7 @@ a.nombre:hover {
 @media screen and (max-width: 764px) {
   .card-images {
     flex-direction: column;
+    
   }
   .card-imagesP {
     grid-template-columns: 1fr 1fr;

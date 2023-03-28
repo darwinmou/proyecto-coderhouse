@@ -58,9 +58,10 @@
   
   .image-box {
 	background-color: #ffba6a;
-	border-radius: 5px;
-	width: 450px;
+	border-radius: 10px;
+	width: 420px;
 	text-align: center;
+	padding: 5px;
   }
   
   .h2-subtitle {
@@ -113,10 +114,10 @@
 	align-items: center;
   }
   
-  .card-images {
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-  }
+//   .card-images {
+// 	display: grid;
+// 	grid-template-columns: 1fr 1fr 1fr;
+//   }
   
   
   
